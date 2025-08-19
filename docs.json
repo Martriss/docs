@@ -75,7 +75,7 @@
               {
                 "group": "About",
                 "pages": [
-                  "en/index",
+                  "index",
                   "quickstart"
                 ]
               },
@@ -88,7 +88,6 @@
               {
                 "group": "Publications",
                 "pages": [
-                  "en/publications",
                   "essentials/code"
                 ]
               },
