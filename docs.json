@@ -150,7 +150,7 @@
     "primary": {
       "type": "button",
       "label": "CV complet",
-      "href": "/cv-complet.pdf"
+      "href": "https://universite.fr/cv-complet.pdf"
     }
   },
   "contextual": {
@@ -163,9 +163,8 @@
   },
   "footer": {
     "socials": {
-      "email": "mailto:prenom.nom@universite.fr",
-      "linkedin": "https://linkedin.com/in/profil",
-      "orcid": "https://orcid.org/0000-0000-0000-0000"
+      "website": "https://orcid.org/0000-0000-0000-0000",
+      "linkedin": "https://linkedin.com/in/profil"
     }
   }
 }
