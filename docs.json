@@ -1,68 +1,116 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Dr. [Prénom Nom]",
+  "description": "Portfolio académique - Docteure en sociologie",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1e40af",
+    "light": "#3b82f6",
+    "dark": "#1e3a8a"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
-        "groups": [
+        "language": "fr",
+        "dropdowns": [
           {
-            "group": "Getting started",
+            "dropdown": "Portfolio",
+            "icon": "user-graduate",
+            "description": "Parcours et recherches en sociologie",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              {
+                "group": "Présentation",
+                "pages": [
+                  "index",
+                  "quickstart"
+                ]
+              },
+              {
+                "group": "Recherches",
+                "pages": [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "Publications",
+                "pages": [
+                  "essentials/markdown",
+                  "essentials/code"
+                ]
+              },
+              {
+                "group": "Enseignement",
+                "pages": [
+                  "ai-tools/cursor",
+                  "ai-tools/claude-code"
+                ]
+              }
             ]
           },
           {
-            "group": "Customization",
+            "dropdown": "Ressources",
+            "icon": "book",
+            "description": "CV et documents",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              {
+                "group": "Documents",
+                "pages": [
+                  "api-reference/introduction"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
-        "groups": [
+        "language": "en",
+        "dropdowns": [
           {
-            "group": "API documentation",
+            "dropdown": "Portfolio",
+            "icon": "user-graduate",
+            "description": "Academic profile and research",
             "pages": [
-              "api-reference/introduction"
+              {
+                "group": "About",
+                "pages": [
+                  "en/index",
+                  "quickstart"
+                ]
+              },
+              {
+                "group": "Research",
+                "pages": [
+                  "essentials/settings"
+                ]
+              },
+              {
+                "group": "Publications",
+                "pages": [
+                  "en/publications",
+                  "essentials/code"
+                ]
+              },
+              {
+                "group": "Teaching",
+                "pages": [
+                  "ai-tools/cursor"
+                ]
+              }
             ]
           },
           {
-            "group": "Endpoint examples",
+            "dropdown": "Resources",
+            "icon": "book",
+            "description": "CV and documents",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              {
+                "group": "Documents",
+                "pages": [
+                  "api-reference/introduction"
+                ]
+              }
             ]
           }
         ]
@@ -71,19 +119,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Université",
+          "href": "https://universite.fr",
+          "icon": "building-columns"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Laboratoire",
+          "href": "https://labo.universite.fr",
+          "icon": "flask"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "ORCID",
+          "href": "https://orcid.org/0000-0000-0000-0000",
+          "icon": "id-card"
         }
       ]
     }
@@ -95,14 +143,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact",
+        "href": "mailto:prenom.nom@universite.fr"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "CV complet",
+      "href": "/cv-complet.pdf"
     }
   },
   "contextual": {
@@ -110,18 +158,14 @@
      "copy",
      "view",
      "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
+     "claude"
    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "email": "mailto:prenom.nom@universite.fr",
+      "linkedin": "https://linkedin.com/in/profil",
+      "orcid": "https://orcid.org/0000-0000-0000-0000"
     }
   }
 }
